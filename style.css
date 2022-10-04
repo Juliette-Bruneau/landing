@@ -1,0 +1,101 @@
+/* Write some CSS below */
+body {
+  font-family: Raleway;
+  color: ##402828;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  color:#A87474;
+  background-color:#523434;
+  font-size:70px;
+
+}
+
+h2 {
+  font-family: Bebas Neue;
+  color:#523434;
+  font-size: 50px;
+
+}
+
+
+h3 {
+  font-family: Bebas Neue;
+  color:#A87474;
+  font-size: 40px;
+  text-decoration:underline;
+}
+
+p {
+  color: #523434;
+  text-decoration: bold;
+  font-size: 20px;
+  transition: .3s;
+  font-family: Raleway;
+}
+
+a {
+  color:#A87474;;
+  font-weight: bold;
+  font-size: 30px;
+  transition: .3s;
+  font-family: Bebas Neue;
+ }
+
+
+.card img {
+	width:300px;
+	height:200px ;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+.button-pink {
+	background-color:#A87474;
+	border-radius:6px;
+	display: inline-block;
+	padding: 3px 5px;
+}
+
+
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,3)), url('https://i.pinimg.com/736x/ec/e6/0f/ece60f4c4b38a2667f5b115915ad9d64.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+
+.footer {
+  background: #523434;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+.slogan {
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr ;
+}
+
+.button {
+	background-color:#A87474 ;
+	color: #523434;
+	padding: 5px 6px;
+	border radius: 4px;
+	display: inline-block;
+	transition: .3s;
+}
